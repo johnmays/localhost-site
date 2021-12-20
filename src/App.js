@@ -1,11 +1,11 @@
 import './App.css';
 
-import background from "./assets/white_netscape.jpg"
+import Logo from "./components/logo.js"
 
 function App() {
   return (
     <div className = "App">
-      hello
+      <Logo/>
     </div>
   );
 }
