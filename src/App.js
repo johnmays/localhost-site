@@ -1,13 +1,13 @@
-import './App.css';
+import React from 'react';
+import HeaderBar from './components/headerBar';
 
-import Logo from "./components/logo.js"
-
-function App() {
-  return (
-    <div className = "App">
-      <Logo/>
-    </div>
-  );
+class App extends React.Component {
+    state = {};
+    render(){
+        return (
+            <HeaderBar/>
+        )
+    }
 }
 
 export default App;

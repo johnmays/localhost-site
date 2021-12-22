@@ -1,12 +1,10 @@
 body {
-  margin: 0;
-  font-family: Consolas;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-image: url(/src/assets/white_netscape_crop.png);
+  padding: 0px;
+  margin: 0px;
+  color: aliceblue;
+  background-image: url("./assets/white_netscape_crop.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
   background-size: cover;
-}
-
-code {
-  font-family:Consolas;
 }
